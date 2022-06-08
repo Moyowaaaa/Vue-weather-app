@@ -5,8 +5,8 @@
       <button class="w-full flex justify-end">
       
       <div class="w-auto  px-2 " @click="isDark = !isDark">
-        <div v-if="isDark"> <i class="fa fa-moon-o text-3xl" aria-hidden="true"></i></div>  
-        <div v-else><i class="fa fa-sun-o text-3xl" aria-hidden="true"></i> </div>
+        <div v-if="isDark"> <i class="fa fa-moon-o lg:text-3xl" aria-hidden="true"></i></div>  
+        <div v-else><i class="fa fa-sun-o lg:text-3xl" aria-hidden="true"></i> </div>
       </div>
       </button>
       <!-- <Toggle @click="isDark = !isDark" :isDark="isDark"/> -->

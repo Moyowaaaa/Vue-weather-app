@@ -1,6 +1,6 @@
 <template>
 <div class="w-screen  h-screen flex flex-col items-center font-space-grotesk dark:bg-[black] dark:text-white">
-  <div class="w-4/12  flex flex-col h-full items-center">
+  <div class="w-10/12  flex flex-col h-full items-center lg:w-4/12">
 
 
     <div class="w-full flex flex-col items-center justify-center h-full">

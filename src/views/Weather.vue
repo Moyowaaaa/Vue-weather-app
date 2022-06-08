@@ -1,13 +1,13 @@
 <template>
 <div class="h-screen  flex flex-col ">
     <router-link to="/">
-    <div class="flex w-auto px-2 sign text-3xl pl-[4rem] cursor-pointer">
+    <div class="flex w-auto px-2  text-xl pl-[4rem] cursor-pointer lg:text-3xl">
         &larr;
     </div>
     </router-link>  
     
 
-    <div class="text-center flex flex-col items-center justify-center h-full text-[1.5rem]">
+    <div class="text-center flex flex-col items-center justify-center h-full lg:text-[1.5rem]">
     <h2>{{weather.name}}, {{weather.sys.country}}</h2>
     <br/>
     
